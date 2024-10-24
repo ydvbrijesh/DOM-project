@@ -1,0 +1,66 @@
+
+body{
+    background-color: #050505;
+}
+.top-section {
+    display: flex;                   /* Makes the links align in a row */
+    justify-content: space-evenly;    /* Distribute space evenly between the links */
+    align-items: center;              /* Vertically center the links */
+    background-color: #05fcef;
+    height: 60px;
+}
+
+.top-section a {
+    background-color: #080f0c;
+    color: rgb(242, 255, 127);
+    font-size: 20px;                  /* Adjusted font size for better alignment */
+    padding: 10px 20px;               /* Add padding for better spacing */
+    text-decoration: none;            /* Remove underline from links */
+    border-radius: 5px;               /* Optional: Rounded corners for links */
+    border: 2px solid white;
+}
+.top-section a:hover{
+    background-color: #0aadee;  
+}
+
+.button {
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 19px;
+    padding: 10px;              /* Add some padding for better appearance */
+    cursor: pointer;            /* Change cursor to pointer on hover */
+    display: inline-block;      /* Aligns the span elements like buttons */
+    text-align: center;         /* Center text within the button */
+    margin: 75px 50px 0 70px;             /* Add some margin for spacing between buttons */
+    align-items: center;
+    justify-content: center;
+}
+
+#red {
+    background-color: red;      /* Set red background for the red button */
+}
+
+#yellow {
+    background-color: yellow;   /* Set yellow background for the yellow button */
+}
+
+#green {
+    background-color: green;     /* Set green background for the green button */
+}
+
+#blue {
+    background-color: blue;      /* Set blue background for the blue button */
+}
+#orange {
+    background-color: orange;      /* Set blue background for the blue button */
+}
+#pink {
+    background-color: pink;      /* Set blue background for the blue button */
+}
+
+h1 , h2{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
