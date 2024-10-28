@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: aqua;
+    font-family: cursive;
+   
+}
+u{
+    color: whitesmoke;
+}
+.top-section {
+    display: flex;                   /* Makes the links align in a row */
+    justify-content: space-evenly;    /* Distribute space evenly between the links */
+    align-items: center;              /* Vertically center the links */
+    background-color: #05fcef;
+  
+}
+
+.top-section a {
+    background-color: #080f0c;
+    color: rgb(242, 255, 127);
+    font-size: 20px;                  /* Adjusted font size for better alignment */
+    padding: 10px 20px;               /* Add padding for better spacing */
+    text-decoration: none;            /* Remove underline from links */
+    border-radius: 10px;               /* Optional: Rounded corners for links */
+    border: 2px solid white;
+}
+.top-section a:hover{
+    background-color: #0aadee;  
+}
+.container {
+    text-align: center; /* Center-align text */
+   font-size: 22px;
+   
+    border: 1px solid #e0d312;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(243, 188, 6, 0.925);
+   
+  }
+  #button{
+    color: #e0d312;
+    font-size: 22px;
+  }
+  
